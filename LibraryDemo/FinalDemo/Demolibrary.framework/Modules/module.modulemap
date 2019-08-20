@@ -1,0 +1,11 @@
+framework module Demolibrary {
+  umbrella header "Demolibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module Demolibrary.Swift {
+    header "Demolibrary-Swift.h"
+    requires objc
+}
